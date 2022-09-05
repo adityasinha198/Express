@@ -1,6 +1,6 @@
 const User = require('../models/user');
 
-//hello
+//hello word
 
   exports.postData = (req, res, next) => {
     const name = req.body.name;
