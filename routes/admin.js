@@ -11,7 +11,7 @@ router.post('/postData', adminController.postData)
 router.get('/users', adminController.getUsers)
 router.delete('/delete/:Id',adminController.deleteUser)
 
-// Do
+// D
 
 
 module.exports = router

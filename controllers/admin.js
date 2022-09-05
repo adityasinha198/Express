@@ -1,18 +1,18 @@
 const User = require('../models/user');
 
-//hello word 
+//hello wor
 
   exports.postData = (req, res, next) => {
-    const name = req.body.name;
-    console.log(name)
-    const email = req.body.email;
-    const number = req.body.phoneNumber;
+    const amount = req.body.amount;
+    //console.log(amount)
+    const description= req.body.description;
+    const category = req.body.category;
     //const description = req.body.description;
     User.create({
-      name:name,
+      amount:amount,
       
-      email:email,
-      number:number
+      description:description,
+      category:category
       })
       .then(result=>{
 
