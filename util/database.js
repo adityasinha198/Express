@@ -7,3 +7,4 @@ const sequelize = new Sequelize('node-complete','root','Aditya@6',{
 })
 
 module.exports = sequelize
+// Ok
