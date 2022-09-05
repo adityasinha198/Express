@@ -13,5 +13,5 @@ const User = sequelize.define('form', {
     
 
 });
-//End word
+//End 
 module.exports = User
